@@ -9,8 +9,8 @@ func main() {
 		"hotdogs",
 		"apples",
 	}
-	for _, value := range foods {
-		fmt.Println(value)
+	for index, value := range foods {
+		fmt.Println(index, value)
 	}
 
 }
